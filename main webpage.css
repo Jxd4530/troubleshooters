@@ -1,0 +1,61 @@
+body{
+    background-image:linear-gradient(100deg,rgb(59, 9, 9) ,rgb(12, 11, 11),rgb(59, 9, 9))
+}
+.upperbg{
+    background-color: rgb(248, 215, 99);
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top : 100   px;
+    left: 0px;
+}
+#main_logo{
+     height: 15em;
+     width : 15em;
+     border: 2px solid black ;
+    margin-top: 10px;
+     margin-left: 10px;
+    
+     float: left;
+     
+}
+#h1_color{
+    font-size:3em;
+    color:black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 300px ;
+}
+#h1_color::first-letter{
+    color:rgb(99, 99, 99);
+    font-size:5em;
+}
+#h2_style{
+    color :black;
+    font-size: 1.5em;
+    margin-left: 300px;
+    
+}
+.pre3{
+    margin-top: 0em ;
+}
+.icon-bar{
+    width: auto;
+    background-color:goldenrod;
+}
+.icon-bar a{
+    display: block;
+    text-align: center  ;
+    padding:16px;
+    transition : all 0.3s ease-out;
+    color:white;
+    font: size 36px;
+    position:relative;
+    top: 0px;
+    left:0px;
+}
+
+.icon-bar a:hover {
+    background-color: black;
+}
+.active{
+    background-color: green ;}
